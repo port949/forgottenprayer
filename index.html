@@ -53,9 +53,9 @@
         <div class="align--center container--lg border--bottom pb1 pt2">
             <h3 class="text--gray pb1">Have a Question About What You Learned? Please Share it Below:</h3>
             <form class="form" name="workshop-form" method="POST" data-netlify="true" action="https://www.ryanhart.org/comment/">
-                <input class="form-control mb1" placeholder="Name">
-                <input class="form-control mb1" type="email" placeholder="Email Address">
-                <textarea class="form-control mb1" placeholder="Share your question here"></textarea>
+                <input class="form-control mb1" type="text" name="name" placeholder="Name">
+                <input class="form-control mb1" type="email" name="email" placeholder="Email Address">
+                <textarea class="form-control mb1" name="comment" placeholder="Share your question here"></textarea>
                 <button class="btn btn--default">Submit Question</button>
             </form>
         </div>
